@@ -28,3 +28,6 @@ class UserLoginSerializer(serializers.ModelSerializer):
     class Meta:
         model=CustomUser
         fields="__all__"
+
+class ProfileSerializer(serializers.ModelSerializer):
+    pass
